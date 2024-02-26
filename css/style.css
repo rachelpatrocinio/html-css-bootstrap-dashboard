@@ -55,7 +55,7 @@ body{
 /*  HEADER */
 
 .main-header{
-    height: 12vh;
+    height: 70px;
 }
 
 .main-header .logo-sm{
@@ -85,8 +85,7 @@ body{
     background-image: url("../img/sidebar-bg.png");
     background-color: var(--darkblue);
     color: var(--white);
-    padding: 10px;
-    height: 88vh;
+    padding: 30px;
     width: 70px;
 }
 
@@ -96,8 +95,8 @@ body{
 
 /* .main-content */
 
-.main-content{
-    width: 88vh;
+main{
+    height: calc(100vh - 70px);
 }
 
 .main-content__header{
