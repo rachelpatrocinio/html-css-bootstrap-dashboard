@@ -2,6 +2,8 @@
     --yellow:#FF8F00;
     --lightgray: #E5E5E5;
     --darkgray: #5A5858;
+    --darkblue: #061E34;
+    --white: #ffffff;
 }
 
 /* RESET */
@@ -46,6 +48,10 @@ body{
 
 /*  HEADER */
 
+.main-header{
+    height: 12vh;
+}
+
 .main-header .logo-sm{
     height: 70px;
     display: block;
@@ -53,7 +59,7 @@ body{
 
 .main-header .logo-md{
     height: 70px;
-    width: 160px;
+    width: 150px;
 }
 
 .main-header ul li{
@@ -65,4 +71,19 @@ body{
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/* .side-bar */
+
+.side-bar{
+    background-image: url("../img/sidebar-bg.png");
+    background-color: var(--darkblue);
+    color: var(--white);
+    padding: 10px;
+    height: 88vh;
+    width: 70px;
+}
+
+.side-bar i{
+    width: 20px;
 }
