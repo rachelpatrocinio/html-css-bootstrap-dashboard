@@ -3,6 +3,8 @@
     --lightgray: #E5E5E5;
     --darkgray: #5A5858;
     --darkblue: #061E34;
+    --blue: #1C71E8;
+    --lightblue: #165BBA;
     --white: #ffffff;
 }
 
@@ -46,6 +48,10 @@ body{
     background-color: var(--lightgray);
 }
 
+.fs-12{
+    font-size: 12px;
+}
+
 /*  HEADER */
 
 .main-header{
@@ -86,4 +92,19 @@ body{
 
 .side-bar i{
     width: 20px;
+}
+
+/* .main-content */
+
+.main-content{
+    width: 88vh;
+}
+
+.main-content__header{
+    background-color: var(--blue);
+}
+
+.main-content__header .badge{
+    font-size: 12px;
+    background-color: var(--lightblue);
 }
