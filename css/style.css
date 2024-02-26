@@ -52,6 +52,10 @@ body{
     font-size: 12px;
 }
 
+.min-width-200{
+    min-width: 200px;
+}
+
 /*  HEADER */
 
 .main-header{
@@ -99,6 +103,10 @@ main{
     height: calc(100vh - 70px);
 }
 
+.main-content{
+    overflow: auto;
+}
+
 .main-content__header{
     background-color: var(--blue);
 }
@@ -106,4 +114,9 @@ main{
 .main-content__header .badge{
     font-size: 12px;
     background-color: var(--lightblue);
+}
+
+.main-content table img{
+    width: 20px;
+    margin-right: 10px;
 }
