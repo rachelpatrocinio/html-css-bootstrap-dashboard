@@ -100,7 +100,7 @@ body{
 /* .main-content */
 
 main{
-    height: calc(100vh - 70px);
+    height: calc(100% - 70px);
 }
 
 .main-content{
