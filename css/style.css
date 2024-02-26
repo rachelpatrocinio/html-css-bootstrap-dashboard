@@ -120,3 +120,18 @@ main{
     width: 20px;
     margin-right: 10px;
 }
+
+.main-content .card.stats .list-group-item{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.main-content .card.stats .list-group-item p{
+    margin: 0;
+}
+
+.main-content .card.stats .list-group-item a{
+    text-decoration: underline;
+    color: var(--blue);
+}
