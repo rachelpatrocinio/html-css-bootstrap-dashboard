@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c473752e7c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ms+Madi&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
@@ -13,8 +14,33 @@
 <body>
 
     <div id="webapp">
-            <header class="main-header">
-                header
+            <header class="main-header p-1">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <a href="#"><img class="logo-sm d-md-none" src="./img/mobile-logo.png" alt="mobile-logo"></a>
+                            <a href="#"><img class="logo-md d-none d-md-block" src="./img/logo.svg" alt="desktop-logo"></a>
+                        </div>
+                        <ul class="col d-flex align-items-center c-darkgray">
+                            <li class="flex-grow-1 position-relative">
+                                <input class="w-100 bg__lightgray border-0 rounded-1 p-2 ps-5" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                            <li class="d-none d-md-block">
+                                <a href="#"><i class="fa-solid fa-list-ul"></i></a>
+                            </li>
+                            <li class="d-none d-md-block">
+                                <a href="#"><i class="fa-solid fa-circle-question"></i></a>
+                            </li>
+                            <li class="d-none d-md-block">
+                                <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="c-yellow fa-solid fa-bell"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </header>
 
             <main class="d-flex">

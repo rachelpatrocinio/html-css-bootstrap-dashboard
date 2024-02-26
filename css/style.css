@@ -1,3 +1,9 @@
+:root{
+    --yellow:#FF8F00;
+    --lightgray: #E5E5E5;
+    --darkgray: #5A5858;
+}
+
 /* RESET */
 
 img{
@@ -6,6 +12,8 @@ img{
 
 ul,ol,menu{
     list-style: none;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 a{
@@ -20,4 +28,41 @@ body{
 #webapp{
     width: 100%;
     height: 100vh;
+}
+
+/* Utilities */
+
+.c-yellow{
+    color: var(--yellow);
+}
+
+.c-darkgray{
+    color: var(--darkgray);
+}
+
+.bg__lightgray{
+    background-color: var(--lightgray);
+}
+
+/*  HEADER */
+
+.main-header .logo-sm{
+    height: 70px;
+    display: block;
+}
+
+.main-header .logo-md{
+    height: 70px;
+    width: 160px;
+}
+
+.main-header ul li{
+    padding: 0 7px;
+}
+
+.main-header input[type="text"] + i{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
