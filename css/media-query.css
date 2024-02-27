@@ -3,10 +3,7 @@
         width: 160px;
     }
 
-    .main-content .table td:nth-child(2),
-    .main-content .table td:nth-child(3),
-    .main-content .table th:nth-child(2),
-    .main-content .table th:nth-child(3){
+    .opacity-md-1{
         opacity: 1;
     }
 

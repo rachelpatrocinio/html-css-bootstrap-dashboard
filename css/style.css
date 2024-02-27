@@ -57,6 +57,10 @@ body{
     font-size: 12px;
 }
 
+.opacity-0{
+    opacity: 0;
+}
+
 /*  HEADER */
 
 .main-header{
@@ -154,13 +158,6 @@ main{
 .main-content .table img{
     width: 20px;
     margin-right: 10px;
-}
-
-.main-content .table td:nth-child(2),
-.main-content .table td:nth-child(3),
-.main-content .table th:nth-child(2),
-.main-content .table th:nth-child(3){
-    opacity: 0;
 }
 
 .main-content .card.stats .list-group-item p{
