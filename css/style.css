@@ -25,6 +25,10 @@ a{
     color: currentColor;
 }
 
+a:hover{
+    color: currentColor;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -97,6 +101,15 @@ body{
     width: 70px;
 }
 
+.side-bar ul li{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.side-bar ul li:hover{
+    background-color: rgba(255, 255, 255, 0.837);
+}
+
 .side-bar i{
     width: 20px;
 }
@@ -142,12 +155,6 @@ main{
 .main-content .table th:nth-child(2),
 .main-content .table th:nth-child(3){
     opacity: 0;
-}
-
-.main-content .card.stats .list-group-item{
-    border-left: none;
-    border-right: none;
-    border-top: none;
 }
 
 .main-content .card.stats .list-group-item p{
