@@ -145,6 +145,12 @@ main{
     padding: 5px;
 }
 
+.main-content .table td:last-child{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
 .main-content .table img{
     width: 20px;
     margin-right: 10px;
