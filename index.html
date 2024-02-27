@@ -37,7 +37,16 @@
                                 <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="c-yellow fa-solid fa-bell"></i></a>
+                                <div class="dropdown">
+                                    <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="c-yellow fa-solid fa-bell"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                                    </ul>
+                                  </div>
                             </li>
                         </ul>
                     </div>
@@ -105,7 +114,7 @@
                                             <h1 class="m-0">Prossime Classi</h1>
                                         </div>
                                         <div class="card-body">
-                                            <table class="table-responsive">
+                                            <table class="table table-borderless table-hover">
                                                 <thead>
                                                     <tr>
                                                         <th class="min-width-xl-300">Nome </th>
