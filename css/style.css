@@ -165,3 +165,9 @@ main{
     text-decoration: underline;
     color: var(--blue);
 }
+
+/* Offcanvas */
+
+.offcanvas{
+    width: 100%;
+}

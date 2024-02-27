@@ -20,4 +20,8 @@
     .main-content .table tr > :first-child{
         min-width: 300px;
     }
+    
+    div.offcanvas{
+        width: 50%;
+    }
 }
