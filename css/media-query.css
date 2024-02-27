@@ -10,3 +10,10 @@
         opacity: 1;
     }
 }
+
+@media screen and (min-width: 1200px){
+
+    .main-content .table-responsive tr > :first-child{
+        min-width: 300px;
+    }
+}
