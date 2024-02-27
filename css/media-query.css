@@ -2,4 +2,11 @@
     .side-bar{
         width: 160px;
     }
+
+    .main-content .table-responsive td:nth-child(2),
+    .main-content .table-responsive td:nth-child(3),
+    .main-content .table-responsive th:nth-child(2),
+    .main-content .table-responsive th:nth-child(3){
+        opacity: 1;
+    }
 }

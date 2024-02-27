@@ -116,21 +116,28 @@ main{
     background-color: var(--lightblue);
 }
 
-.main-content table{
+.main-content .table-responsive{
     width: 100%;
 }
 
-.main-content table tr{
+.main-content .table-responsive tr{
     border-bottom: 1px solid var(--lightgray);
 }
 
-.main-content table td{
+.main-content .table-responsive td{
     padding: 5px;
 }
 
-.main-content table img{
+.main-content .table-responsive img{
     width: 20px;
     margin-right: 10px;
+}
+
+.main-content .table-responsive td:nth-child(2),
+.main-content .table-responsive td:nth-child(3),
+.main-content .table-responsive th:nth-child(2),
+.main-content .table-responsive th:nth-child(3){
+    opacity: 0;
 }
 
 .main-content .card.stats .list-group-item{
