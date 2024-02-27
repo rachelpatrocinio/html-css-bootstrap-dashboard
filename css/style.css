@@ -82,9 +82,10 @@ body{
 
 .main-header input[type="text"] + i{
     position: absolute;
-    left: 20px;
+    left: 25px;
     top: 50%;
     transform: translateY(-50%);
+    pointer-events: none;
 }
 
 .main-header ul.dropdown-menu.show{
@@ -97,7 +98,7 @@ body{
     background-image: url("../img/sidebar-bg.png");
     background-color: var(--darkblue);
     color: var(--white);
-    padding: 30px;
+    padding: 20px;
     width: 70px;
 }
 
@@ -170,3 +171,42 @@ main{
 .offcanvas{
     width: 100%;
 }
+
+
+
+
+/* Animation */
+
+.slide-in-right{
+    animation-name: slide-in-right;
+    animation-duration: 0.8s;
+}
+
+@keyframes slide-in-right{
+    0%{
+        opacity:0;
+        transform: translateX(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.slide-in-left{
+    animation-name: slide-in-left;
+    animation-duration: 0.8s;
+}
+
+@keyframes slide-in-left{
+    0%{
+        opacity:0;
+        transform: translateX(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
