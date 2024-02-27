@@ -2,14 +2,6 @@
     .side-bar{
         width: 160px;
     }
-
-    .opacity-md-1{
-        opacity: 1;
-    }
-
-    .main-content .table tr > :first-child{
-        min-width: 200px;
-    }
 }
 
 @media screen and (min-width: 1200px){
