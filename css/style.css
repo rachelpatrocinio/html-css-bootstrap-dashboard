@@ -32,6 +32,7 @@ body{
 #webapp{
     width: 100%;
     height: 100vh;
+    background-color: #f8f9fa;
 }
 
 /* Utilities */
@@ -58,13 +59,16 @@ body{
     height: 70px;
 }
 
+.main-header > *{
+    background-color: var(--white);
+}
+
 .main-header .logo-sm{
-    height: 70px;
+    width: 50px;
     display: block;
 }
 
 .main-header .logo-md{
-    height: 70px;
     width: 150px;
 }
 
